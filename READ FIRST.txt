@@ -1,0 +1,227 @@
+Counter-Strike Helper  |  V1.6  |  ReadMe
+=========================================
+
+For questions, comments, bug reports, etc.,
+e-mail me at:
+
+kd5tbx@yahoo.com
+
+=========================================
+
+Contents:
+
+1. Set-up
+   1.1. Install
+   1.2. Uninstall
+   1.3. Configure
+
+2. Directory Tree
+3. Credits
+4. Legal Info
+5. Version History
+
+=========================================
+
+1. Set-up
+=========
+
+1.1. Install
+============
+
+Extract the contents of cstrike in to your
+cstrike folder.
+
+NOTE:  YOU MAY WANT TO BACKUP ANY FILES
+YOU DO NOT WANT OVERWRITTEN
+
+
+
+1.2. Uninstall
+==============
+
+To uninstall, delete the following
+
+Folder: csh
+File: valve.rc
+File: commandmenu.txt
+File: gfx/shell/kb_act.lst
+
+and replace these with the backups,
+if you created them.
+
+
+
+1.3. Configure
+==============
+
+Crosshair Color
+===============
+
+Go into the folder csh/crosshair/color/.  You should
+see 5 files.  Here you can change the color in the
+color cycler.  There are defaults if you do not wish
+to change this.
+
+
+
+MP3 Player
+==========
+Ok, first of all, you need at most 10 MP3s.  Then name the MP3s like so:
+1.mp3, 2.mp3, 3.mp3, ..., 10.mp3.  Add them to "csh/mp3/files/".
+
+Controls can either be found in the command menu, or you can bind the
+controls in the options menu.  The player also comes with a volume control.
+
+
+
+Controls
+========
+
+After install, go to the bottom of the keyboard menu
+in options, this is where you can bind the commands
+from this utility.
+
+=========================================
+
+2. Directory Tree
+=================
+
+Note: Files is parathesis "()" do not exist yet.
+
++cstrike
+|commandmenu.txt
+|valve.rc
+|
+|+gfx
+||+shell
+|||kb_act.lst
+|
+|+csh
+||csh_aliases.cfg
+||csh_buy.cfg
+||csh_commands.cfg
+||csh_echo.cfg
+||csh_equipment.cfg
+||csh_main.cfg
+||csh_note.cfg
+||csh_options_aliases.cfg
+||
+||+mp3
+|||+files
+||||(1.mp3)
+||||(2.mp3)
+||||(3.mp3)
+||||(4.mp3)
+||||(5.mp3)
+||||(6.mp3)
+||||(7.mp3)
+||||(8.mp3)
+||||(9.mp3)
+||||(10.mp3)
+|||
+|||mp3.cfg
+||
+||+crosshair
+|||+color
+||||csh_crosshair_color1.cfg
+||||csh_crosshair_color2.cfg
+||||csh_crosshair_color3.cfg
+||||csh_crosshair_color4.cfg
+||||csh_crosshair_color5.cfg
+|||
+|||csh_crosshair.cfg
+||
+||
+||+save
+|||+config
+||||
+||||+cfg_create
+|||||cfg_create_1.cfg
+|||||cfg_create_2.cfg
+|||||cfg_create_3.cfg
+||||
+||||(csh_cfg1.cfg)
+||||(csh_cfg2.cfg)
+||||(csh_cfg3.cfg)
+|||
+|||+demo
+||||(csh_demo1.dem)
+||||(csh_demo2.dem)
+||||(csh_demo3.dem)
+||||(csh_demo4.dem)
+||||(csh_demo5.dem)
+
+=========================================
+
+3. Credits
+==========
+
+There are a few people I would like to thank:
+
+rZe, for the idea to make this
+VALVe, for helping to make Counter-Strike
+counter-script.net, for some ideas in this utility
+and anyone else I may have forgotten
+
+=========================================
+
+4. Legal Info
+=============
+
+Give this to your friends!
+You have my permission to use any part of this
+utility for your own, I just ask you credit me
+or anyone I gave credit to in the credits
+(Section 3.)
+
+=========================================
+
+5. Version History
+==================
+
+- Before v1.0
+=============
++ All BETA Stages
++ Changes made:
+
++ Can't remember (^_^)
+
+
+- Version 1.0
+=============
++ First version released
++ Left BETA Stages
+
+- Version 1.1
+=============
++ Fixed radio cycler rebinds
++ Updated Options menu
+
+- Version 1.2
+=============
++ Updated startup note
++ Updated GUI Command Menu
++ Updated C4 Commands to switch to best weapon
+  while putting second best as last used weapon
++ Options now have radio commands
+
+- Version 1.3
+=============
++ Added 'No Screen Output Buy Menu'
+
+- Version 1.4
+=============
++ Updated Buy Menu to support CSH Buy aliases
++ Updated GUI Command Menu
++ Added New Commands (Options, Chat, etc.)
++ Updated Commands
+
+- Version 1.5
+=============
++ Reduced file count
+
+- Version 1.6
+=============
++ Added MP3 Player, supports up to 10 songs
++ Added MP3 Player Aliases
++ Modified Command Menu for MP3 Player

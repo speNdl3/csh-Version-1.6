@@ -1,0 +1,11 @@
+// Counter-Strike Helper
+// Filename: valve.rc
+//
+// Main Loading File
+//
+// DO NOT EDIT
+
+
+exec csh/csh_main.cfg
+
+stuffcmds

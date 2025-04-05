@@ -1,0 +1,318 @@
+// Counter-Strike Helper
+// Filename: commandmenu.txt
+//
+// Command Menu GUI
+
+"*" "Current Game"
+{
+	CUSTOM "*" "Show Map Briefing"	"!MAPBRIEFING"
+	"*" "Time Left"			"timeleft"
+	"*" "Change Team"		"chooseteam"
+	"*" "Save STEAMIDS"		"csh_saveids"
+	"*" "Drop Current Item"		"drop"
+
+	"*" "Quit"
+	{
+		"*" "Reconnect"		"reconnect"
+		"*" "Disconnect"	"disconnect"
+		"*" "Quit"		"quit"
+	}
+
+	"*" "Demos"
+	{
+		"*" "Stop Recording" "stop"
+
+		"*" "Record Demo"
+		{
+			"*" "Demo 1" "csh_demo_rec_1"
+			"*" "Demo 2" "csh_demo_rec_2"
+			"*" "Demo 3" "csh_demo_rec_3"
+			"*" "Demo 4" "csh_demo_rec_4"
+			"*" "Demo 5" "csh_demo_rec_5"
+		}
+
+		"*" "Play Demo"
+		{
+			"*" "Demo 1" "csh_demo_play_1"
+			"*" "Demo 2" "csh_demo_play_2"
+			"*" "Demo 3" "csh_demo_play_3"
+			"*" "Demo 4" "csh_demo_play_4"
+			"*" "Demo 5" "csh_demo_play_5"
+		}
+	}
+
+	"*" "Config Save"
+	{
+		"*" "Save"
+		{
+			"*" "Config 1" "csh_cfg_save_1"
+			"*" "Config 2" "csh_cfg_save_2"
+			"*" "Config 3" "csh_cfg_save_3"
+		}
+
+		"*" "Load"
+		{
+			"*" "Config 1" "csh_cfg_load_1"
+			"*" "Config 2" "csh_cfg_load_2"
+			"*" "Config 3" "csh_cfg_load_3"
+		}
+	}
+}
+
+"*" "Buy Menu: Weapons"
+{
+	"*" "Pistols"
+	{
+		"*" "9x19mm Sidearm" 		"csh_buy_glock"
+		"*" "K&M .45 Tactical"		"csh_buy_usp"
+		"*" "228 Compact"		"csh_buy_p228"
+		"*" "Night Hawk .50C"		"csh_buy_deagle"
+		TEAM1 "*" ".40 Dual Elites"	"csh_buy_pistol"
+		TEAM2 "*" "ES Five-Seven"	"csh_buy_pistol"
+	}
+
+	"*" "Shotguns"
+	{
+		"*" "Leone 12 Gauge Super"		"csh_buy_m3"
+		"*" "Leone YG1265 Auto Shotgun"		"csh_buy_xm1014"
+	}
+
+	"*" "Sub-Machine Guns"
+	{
+		TEAM1 "*" "Ingram MAC-10"		"csh_buy_cheap_smg"
+		TEAM2 "*" "Schmidt Machine Pistol"	"csh_buy_cheap_smg"
+		"*" "K&M Sub-Machine Gun"		"csh_buy_mp5"
+		"*" "K&M UMP45"				"csh_buy_ump45"
+		"*" "ES C90"				"csh_buy_p90"
+	}
+
+	"*" "Rifles"
+	{
+		TEAM1 "*" "IDF Defender"		"csh_buy_cheap_rifle"
+		TEAM2 "*" "Clarion 5.56"		"csh_buy_cheap_rifle"
+		TEAM1 "*" "AK-47"			"csh_buy_normal_rifle"
+		TEAM2 "*" "Maverick M4A1 Carbine"	"csh_buy_normal_rifle"
+		"*" "Schmidt Scout"			"csh_buy_scout"
+		TEAM1 "*" "Krieg 552"			"csh_buy_scoped_rifle"
+		TEAM2 "*" "Bullpup"			"csh_buy_scoped_rifle"
+		"*" "Magnum Sniper Rifle"		"csh_buy_awp"
+		TEAM1 "*" "D3/AU1"			"csh_buy_sniper_rifle"
+		TEAM2 "*" "Krieg 550 Commando"		"csh_buy_sniper_rifle"
+	}
+
+	"*" "Machine Guns"
+	{
+		"*" "ES M249 Para"	"csh_buy_m249"
+	}
+
+	"*" "Rebuy"	"rebuy"
+	"*" "Autobuy"	"autobuy"
+}
+
+"*" "Buy Menu: Ammo/Equip"
+{
+	"*" "Ammo"
+	{
+		"*" "1 Clip (Primary)"		"csh_ammo_pri_2"
+		"*" "2 Clips (Primary)"		"csh_ammo_pri_3"
+		"*" "3 Clips (Primary)"		"csh_ammo_pri_4"
+		"*" "Full Ammo (Primary)"	"csh_ammo_pri_5"
+		"*" "1 Clip (Secondary)"	"csh_ammo_sec_2"
+		"*" "2 Clips (Secondary)"	"csh_ammo_sec_3"
+		"*" "3 Clips (Secondary)"	"csh_ammo_sec_4"
+		"*" "Full Ammo (Secondary)"	"csh_ammo_sec_5"
+		"*" "Full Ammo (Both)"		"csh_ammo_full"
+	}
+
+	"*" "Equipment"
+	{
+		"*" "Kevlar"		"vest"
+		"*" "Kevlar+Helmet"	"vesthelm"
+
+		"*" "Grenades"
+		{
+			"*" "Flashbang"		"flash"
+			"*" "Two Flashbangs"	"csh_equip_2flash"
+			"*" "HE Grenade"	"hegren"
+			"*" "Smoke Grenade"	"sgren"
+			"*" "All Grenades"	"csh_equip_allgren"
+			"*" "HE, 2 Flash"	"csh_equip_he_2flash"
+		}
+
+		TEAM2 "*" "Defusal Kit"		"defuser"
+		"*" "Nightvision"		"nvgs"
+		TEAM2 "*" "Tactical Shield"	"shield"
+	}
+}
+
+"*" "Ammo: Set-up"
+{
+	"*" "Default"			"csh_option_ammo_default"
+
+	"*" "Primary"
+	{
+		"*" "None"		"csh_option_pri_none"
+		"*" "1 Clip"		"csh_option_pri_1"
+		"*" "2 Clips"		"csh_option_pri_2"
+		"*" "3 Clips"		"csh_option_pri_3"
+		"*" "Full Ammo"		"csh_option_pri_full"
+	}
+
+	"*" "Secondary"
+	{
+		"*" "None"		"csh_option_sec_none"
+		"*" "1 Clip"		"csh_option_sec_1"
+		"*" "2 Clips"		"csh_option_sec_2"
+		"*" "3 Clips"		"csh_option_sec_3"
+		"*" "Full Ammo"		"csh_option_sec_full"
+	}
+}
+
+"*" "MP3 Player"
+{
+	"*" "Play/Stop" "csh_mp3_play_stop"
+	"*" "Next" "csh_mp3_next"
+	"*" "Previous" "csh_mp3_prev"
+	"*" "Volume Up" "csh_mp3_volumeup"
+	"*" "Volume Down" "csh_mp3_volumedown"
+}
+
+"*" "Chat"
+{
+	TEAM1 "*" "Planting"		"csh_chat_planting"
+	TEAM2 "*" "Defusing"		"csh_chat_defusing"
+	TEAM1 "*" "Go to Bomb A"	"csh_chat_go_site_a"
+	TEAM2 "*" "Enemy Bomb Site A"	"csh_chat_enemy_site_a"
+	TEAM1 "*" "Go to Bomb B"	"csh_chat_go_site_b"
+	TEAM2 "*" "Enemy Bomb Site B"	"csh_chat_enemy_site_b"
+	"*" "Bomb Site Secure"		"csh_chat_site_secure"
+	TEAM1 "*" "Guard Hostages"	"csh_chat_guard_hostages"
+	TEAM2 "*" "Get the Hostages"	"csh_chat_get_hostages"
+	TEAM1 "*" "I see the VIP"	"csh_chat_VIP_spotted"
+	TEAM2 "*" "Protect the VIP"	"csh_chat_protect_VIP"
+	"*" "Snipers"			"csh_chat_snipers"
+	"*" "Rush them"			"csh_chat_rush"
+}
+
+"*" "Options"
+{
+	"*" "HUD Options"
+	{
+		"*" "Crosshair"
+		{
+			"*" "Color"	"csh_ch_adjust"
+
+			"*" "Size"
+			{
+				"*" "Auto"	"csh_option_ch_size_auto"
+				"*" "Small"	"csh_option_ch_size_small"
+				"*" "Medium"	"csh_option_ch_size_medium"
+				"*" "Large"	"csh_option_ch_size_large"
+			}
+
+			"*" "Transparency"
+			{
+				"*" "On"	"csh_option_ch_trans_on"
+				"*" "Off"	"csh_option_ch_trans_off"
+			}
+
+			"*" "Dynamic Crosshair"
+			{
+				"*" "On"	"csh_option_ch_dynam_on"
+		 		"*" "Off"	"csh_option_ch_dynam_off"
+			}
+		}
+
+		"*" "Radar Type"
+		{
+			"*" "Transparent"	"csh_option_radar_trans_on"
+			"*" "Solid"		"csh_option_radar_trans_off"
+		}
+
+		"*" "Center ID"
+		{
+			"*" "On" 	"csh_option_centerid_on"
+			"*" "Off" 	"csh_option_centerid_off"
+		}
+	}
+
+	"*" "Client Options"
+	{
+		"*" "Change Name"		"messagemode name"
+
+		"*" "VGUI Buy Menus"
+		{
+			"*" "On" 	"csh_option_vguimenus_on"
+			"*" "Off" 	"csh_option_vguimenus_off"
+		}
+
+		"*" "Auto-Help"
+		{
+			"*" "On" 	"csh_option_ah_on"
+			"*" "Off" 	"csh_option_ah_off"
+		}
+
+		"*" "Switch Hand"
+		{
+			"*" "Right Hand" 	"csh_option_righthand_on"
+			"*" "Left Hand" 	"csh_option_righthand_off"
+		}
+
+		"*" "Fast Switch"
+		{
+			"*" "On" 	"csh_option_fastswitch_on"
+			"*" "Off" 	"csh_option_fastswitch_off"
+		}
+
+		"*" "Auto Weapon Switch"
+		{
+			"*" "On"	"csh_option_autowep_on"
+			"*" "Off"	"csh_option_autowep_off"
+		}
+
+		"*" "Volume"		"messagemode volume"
+		"*" "Sensitivity"	"messagemode sensitivity"
+	}
+
+	"*" "Performance"
+	{
+		"*" "Min Models (L33T/GIGN)"
+		{
+			"*" "On"	"csh_option_minmodels_on"
+			"*" "Off"	"csh_option_minmodels_off"
+		}
+
+		"*" "Smoke Quality"
+		{
+			"*" "Low"	"csh_option_smoke_low"
+			"*" "Medium"	"csh_option_smoke_medium"
+			"*" "High"	"csh_option_smoke_high"
+		}
+
+		"*" "Weather"
+		{
+			"*" "On"	"csh_option_weather_on"
+			"*" "Off"	"csh_option_weather_off"
+		}
+
+		"*" "Corpse Stay"
+		{
+			"*" "On"	"csh_option_corpse_on"
+			"*" "Off"	"csh_option_corpse_off"
+		}
+
+		"*" "Gun Shells"
+		{
+			"*" "On"	"csh_option_shells_on"
+			"*" "Off"	"csh_option_shells_off"
+		}
+
+		"*" "Smoke Puffs"
+		{
+			"*" "On"	"csh_option_smoke_on"
+			"*" "Off"	"csh_option_smoke_off"
+		}
+	}
+}
+
+"*" "Exit Menu"		"slot10;w;slot10"
